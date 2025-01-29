@@ -9,8 +9,8 @@ fi
 remove_shortcuts() {
   cd ~/
   echo "Removing shortcuts..."
-  rm -rf ~/.local/share/applications/Steam-BSD-Runtime-OSS.desktop ~/.local/share/applications/Steam-BSD-Runtime-OSS.desktop
-  su -l root -c 'rm -rf /usr/local/bin/steam-bsd-runtime-oss'
+  rm -rf ~/.local/share/applications/Steam-BSD-Runtime-OSS.desktop ~/.local/share/applications/Steam-BSD-Runtime.desktop
+  su -l root -c 'rm -rf /usr/local/bin/steam-bsd-runtime-oss /usr/local/bin/steam-bsd-runtime'
 }
 remove_proton() {
   cd ~/
